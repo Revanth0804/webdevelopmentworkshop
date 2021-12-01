@@ -1,0 +1,68 @@
+.cardbody{
+    border: black 2px solid;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: cyan;
+}
+.card{
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap; 
+}
+img{
+    border: black 2px solid;
+    border-radius: 3px;
+    align-content: center;
+    
+}
+button{
+    font-size: 20px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .cardbody{
+        width: 90%;
+        font-size: 30px;
+        background-color: bisque;
+        text-align: center;
+        
+       
+         
+    }
+    button{
+        font-size: 20px;
+    }
+   img{
+       align-content: center;
+   }
+    
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .card{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    }
+    .cardbody{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    button{
+        font-size: 20px;
+    }
+    div{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
